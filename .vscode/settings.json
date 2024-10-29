@@ -1,0 +1,12 @@
+{
+  // ESLint stylelint 保存自动 Fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  // 设置 Prettier 为 VS Code 的默认格式工具
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Prettier 保存自动格式化
+  "editor.formatOnSave": true,
+  "cSpell.words": ["antd", "commitlint", "stylelint", "xmwebpack"]
+}
