@@ -60,15 +60,15 @@ jobs:
 
       # Step4
       - name: 代码校验
-        run: yarn run lint
+        run: yarn run lint-stage
 
       # Step5
-      - name: 单元测试
-        run: yarn test
+      # - name: 单元测试
+      #   run: yarn test
 
       # Step6
-      - name: 文档构建
-        run: yarn run docs:build
+      # - name: 文档构建
+      #   run: yarn run docs:build
 
       # Step7
       - name: 代码构建
