@@ -76,7 +76,7 @@
     "stylelint-declaration-block-no-ignored-properties": "2.8.0",
     "stylelint-less": "^3.0.1",
     "stylelint-order": "^6.0.4",
-    "stylelint-prettier": "5.0.0",
+    "stylelint-prettier": "^4.0.0",
     "thread-loader": "^4.0.4",
     "ts-loader": "^9.5.1",
     "typescript": "5.4.3",
