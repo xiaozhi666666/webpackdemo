@@ -60,7 +60,7 @@ jobs:
 
       # Step4
       - name: 代码校验
-        run: yarn run lint-stage
+        run: yarn lint-staged
 
       # Step5
       # - name: 单元测试
