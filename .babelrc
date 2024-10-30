@@ -2,7 +2,7 @@
   "comments": false,
   "presets": [
     [
-      "@babel/env",
+      "@babel/preset-env",
       {
         "targets": { "browsers": ["> 1%", "last 2 versions", "not ie <= 8"] },
         "useBuiltIns": "usage",
@@ -10,11 +10,11 @@
         "loose": true
       }
     ],
-    "@babel/react",
-    "@babel/typescript"
+    "@babel/preset-react",
+    "@babel/preset-typescript"
   ],
   "plugins": [
-    ["import", { "libraryName": "antd", "style": true }, "antd"], 
+    ["import", { "libraryName": "antd", "style": true }, "antd"],
     "dynamic-import-node",
     "@babel/plugin-transform-runtime",
     "@babel/plugin-transform-arrow-functions",
@@ -22,6 +22,8 @@
     "@babel/plugin-proposal-object-rest-spread",
     ["@babel/plugin-proposal-decorators", { "legacy": true }],
     ["@babel/plugin-proposal-class-properties", { "loose": true }],
-    ["@babel/plugin-proposal-private-methods", { "loose": true }]
+    ["@babel/plugin-proposal-private-methods", { "loose": true }],
+    ["@babel/plugin-proposal-private-property-in-object", { "loose": true }],
+    "@babel/plugin-proposal-class-properties"
   ]
 }
